@@ -1,6 +1,7 @@
 - defaults:
     link:
       relink: true
+      create: true
 
 - clean: ['~']
 
@@ -11,6 +12,15 @@
     ~/.exports:
     ~/.functions:
     ~/.bash_prompt:
+    ~/.gitconfig:
+    ~/.gitignore:
+    ~/.vimrc: vim/vimrc
+    ~/.vim/colors/solarized.vim: vim/solarized.vim
+
+- create:
+    - ~/.vim/backups
+    - ~/.vim/swaps
+    - ~/.vim/undo
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
