@@ -1,42 +1,7 @@
-# Easier navigation
-alias ..="cd .."
-alias ...="cd ../.."
-
-# Detect which `ls` flavor is in use
-if ls --color > /dev/null 2>&1; then # GNU `ls`
-    colorflag="--color"
-else # OS X `ls`
-    colorflag="-G"
-fi
-
-# Always use color output for `ls`
-alias ls="ls ${colorflag}"
-alias l="ls"
-alias la="ls -A"
-alias ll="ls -lah"
-
-unset colorflag
-
 # Aliases to protect against overwriting
 alias cp='cp -i'
 alias mv='mv -i'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
-
-
-# MacOS specific (should not be here...) 
-# Show/hide hidden files in Finder
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-
-# Hide/show all desktop icons (useful when presenting)
-alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
-alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
-
-# Disable Spotlight
-alias spotoff="sudo mdutil -a -i off"
-# Enable Spotlight
-alias spoton="sudo mdutil -a -i on"
-
 

@@ -5,15 +5,27 @@
 
 - clean: ['~']
 
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [chsh -s $(which zsh), Making zsh the default shell]
+  - 
+    command: sh pre-install.sh
+    stdout: true
+    stderr: true
+    description: Running pre-install script
+
 - link:
-    ~/.bashrc: 
-    ~/.bash_profile: 
-    ~/.aliases: 
-    ~/.exports:
-    ~/.functions:
-    ~/.bash_prompt:
-    ~/.gitconfig:
-    ~/.gitignore:
+    ~/.zshrc:
+     force: true
+    ~/.p10k.zsh:
+    ~/.oh-my-zsh/custom/themes/powerlevel10k:
+      path: powerlevel10k
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
+      path: zsh-autosuggestions
+    ~/.oh-my-zsh/custom/aliases.zsh:
+      path: aliases
+    ~/.oh-my-zsh/custom/functions.zsh:
+      path: functions
     ~/.vimrc: vim/vimrc
     ~/.vim/colors/solarized.vim: vim/solarized.vim
 
@@ -21,6 +33,3 @@
     - ~/.vim/backups
     - ~/.vim/swaps
     - ~/.vim/undo
-
-- shell:
-  - [git submodule update --init --recursive, Installing submodules]
