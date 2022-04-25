@@ -9,6 +9,8 @@ else
   brew update
 fi
 
+brew bundle --file Brewfile
+
 # Check if oh-my-zsh is installed
 OMZDIR="$HOME/.oh-my-zsh"
 if [ ! -d "$OMZDIR" ]; then
