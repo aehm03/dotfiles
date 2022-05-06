@@ -2,6 +2,6 @@
 alias cp='cp -i'
 alias mv='mv -i'
 
-# Enable aliases to be sudo’ed
+# Enable aliases for some commands
 alias sudo='sudo '
-
+alias watch='watch '
