@@ -27,7 +27,6 @@
     ~/.oh-my-zsh/custom/functions.zsh:
       path: functions
     ~/.vimrc: vim/vimrc
-    ~/.vim/colors/solarized.vim: vim/solarized.vim
     ~/Brewfile:
 
 
