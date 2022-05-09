@@ -34,3 +34,10 @@
     - ~/.vim/backups
     - ~/.vim/swaps
     - ~/.vim/undo
+
+- shell:
+  - 
+    command: brew bundle
+    stdout: true
+    stderr: true
+    description: Installing brew dependencies]
