@@ -9,7 +9,7 @@ Install: `./install`
 
 Note:
 * The zshrc file from ohmyzsh is forcefully overwritten by the dotbot installer. I found no workaround for that. If this file changes in ohmyzsh, it must be updated from hand. 
-* The solarized theme for iterm must be installed by hand
+* The theme for iterm must be installed by hand
 * Fonts for powerline10k must be installed with `p10k configure`
 
 Todo:
