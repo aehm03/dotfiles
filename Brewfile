@@ -3,7 +3,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 
-brew "awscli"
 brew "jq"
 brew "poetry"
 brew "pyenv"
