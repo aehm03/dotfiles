@@ -79,7 +79,7 @@ plugins=(git
 
 source $ZSH/oh-my-zsh.sh
 
-
+VI_MODE_SET_CURSOR=true
 
 
 # User configuration
