@@ -8,3 +8,6 @@
 [submodule "zsh-autosuggestions"]
 	path = zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "vim/darcula"]
+	path = vim/darcula
+	url = https://github.com/doums/darcula
