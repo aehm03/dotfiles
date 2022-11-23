@@ -30,6 +30,7 @@
     ~/.vimrc: vim/vimrc
     ~/.vim/colors/darcula.vim : vim/darcula/colors/darcula.vim
     ~/Brewfile:
+    ~/.gitignore:
 
 
 - create:
@@ -42,4 +43,6 @@
     command: brew bundle
     stdout: true
     stderr: true
-    description: Installing brew dependencies]
+    description: Installing brew dependencies
+  -
+    command: git config --global core.excludesfile ~/.gitignore
