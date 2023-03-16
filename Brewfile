@@ -15,5 +15,6 @@ cask "google-chrome"
 cask "iterm2"
 cask "notion"
 brew "ripgrep"
+brew "pipx"
 
 cask "iterm2"
