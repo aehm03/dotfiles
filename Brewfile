@@ -16,5 +16,6 @@ cask "iterm2"
 cask "notion"
 brew "ripgrep"
 brew "pipx"
+brew "fzf"
 
 cask "iterm2"

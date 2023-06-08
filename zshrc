@@ -77,6 +77,7 @@ plugins=(git
 	z
 	kubectl
   zsh-syntax-highlighting
+  fzf
 )
 
 source $ZSH/oh-my-zsh.sh
