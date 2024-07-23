@@ -102,5 +102,6 @@ VI_MODE_SET_CURSOR=true
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Created by `pipx` on 2023-02-06 11:53:48
+
+# Created by `pipx` on 2024-07-17 11:34:41
 export PATH="$PATH:/Users/moritz/.local/bin"

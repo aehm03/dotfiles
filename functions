@@ -36,3 +36,6 @@ function tre() {
     tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
 
+function nn() {
+  echo "\n- $@" >> "$HOME/Documents/logseq/journals/$(date -u +%Y_%m_%d).md"
+}

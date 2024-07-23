@@ -2,8 +2,8 @@
 
 # Check if Homebrew is installed
 if [ ! -f "$(which brew)" ]; then
-  echo 'Installing homebrew'
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  echo 'You must install  homebrew first'
+  exit 1
 else
   echo 'Updating homebrew'
   brew update

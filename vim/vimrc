@@ -102,5 +102,5 @@ if has("autocmd")
     autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
 
-" Darcula Color Theme 
-colorscheme darcula
+set background=light
+colorscheme solarized

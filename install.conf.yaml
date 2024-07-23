@@ -30,7 +30,7 @@
     ~/.oh-my-zsh/custom/functions.zsh:
       path: functions
     ~/.vimrc: vim/vimrc
-    ~/.vim/colors/darcula.vim : vim/darcula/colors/darcula.vim
+    ~/.vim/colors/solarized.vim : vim/vim-colors-solarized/colors/solarized.vim
     ~/Brewfile:
     ~/.gitignore:
 

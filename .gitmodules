@@ -8,9 +8,9 @@
 [submodule "zsh-autosuggestions"]
 	path = zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
-[submodule "vim/darcula"]
-	path = vim/darcula
-	url = https://github.com/doums/darcula
 [submodule "zsh-syntax-highlighting"]
 	path = zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "vim/vim-colors-solarized"]
+	path = vim/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized

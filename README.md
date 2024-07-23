@@ -5,18 +5,16 @@ Uses:
 * Brewfile for basic applications
 * Some custom stuff
 
-## Installs 
+## Install 
 
-1. Add submodules from hand (they are only updated automatically)
-2. Run dotbot
+0. Install homebrew
+1. Init submodules: `git submodule init && git submodule update`
+2. Run dotbot:
 `./install`
+3. Configure iterm2 (hotkey, theme)
+(4. Configure powerline10k `p10k configure`)
 
 ## Notes
 * The zshrc file from ohmyzsh is forcefully overwritten by the dotbot installer. I found no workaround for that. If this file changes in ohmyzsh, it must be updated from hand. 
-* The theme for iterm must be installed by hand
-* Fonts for powerline10k must be installed with `p10k configure`
 
-Todo:
 
-* Is there a way to install submodules from the .gitmodules file?
-* decoupling of os specific stuff
